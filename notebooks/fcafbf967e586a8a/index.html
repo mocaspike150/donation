@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ambassador Data Test Page</title>
 <style>
 .observablehq--inspect { display: none; }
@@ -8,7 +9,8 @@
 <script type="module">
 
 import {Runtime, Inspector} from "./runtime.js";
-import define from "./d/fcafbf967e586a8a.js";
+//import define from "./d/fcafbf967e586a8a.js";
+import define from "https://api.observablehq.com/d/fcafbf967e586a8a.js?v=3";
 
 const runtime = new Runtime();
 const main = runtime.module(define, Inspector.into(document.body));
