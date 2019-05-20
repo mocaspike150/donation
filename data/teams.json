@@ -1,5 +1,0 @@
----
-layout: data
----
-
-{{ site.data.donation.teams | jsonify }}

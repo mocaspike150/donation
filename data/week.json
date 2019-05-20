@@ -1,0 +1,5 @@
+---
+layout: data
+---
+
+{{ site.data.week | jsonify }}
