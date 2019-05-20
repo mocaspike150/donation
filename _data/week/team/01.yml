@@ -1,46 +1,46 @@
-team: 
+donation: 
   - 
     crowdrise_id: 5358898
-    donation: 2843
+    amount: 2843
   - 
     crowdrise_id: 5333852
-    donation: 1300
+    amount: 1300
   - 
     crowdrise_id: 5521923
-    donation: 1298
+    amount: 1298
   - 
     crowdrise_id: 5534445
-    donation: 925
+    amount: 925
   - 
     crowdrise_id: 5543455
-    donation: 900
+    amount: 900
   - 
     crowdrise_id: 4495011
-    donation: 575
+    amount: 575
   - 
     crowdrise_id: 534009
-    donation: 558
+    amount: 558
   - 
     crowdrise_id: 2913433
-    donation: 550
+    amount: 550
   - 
     crowdrise_id: 5337023
-    donation: 525 
+    amount: 525 
   - 
     crowdrise_id: 5356828
-    donation: 435
+    amount: 435
   - 
     crowdrise_id: 5543665
-    donation: 300
+    amount: 300
   - 
     crowdrise_id: 5526707
-    donation: 200
+    amount: 200
   - 
     crowdrise_id: 5539317
-    donation: 125
+    amount: 125
   - 
     crowdrise_id: 5528835
-    donation: 100
+    amount: 100
   - 
     crowdrise_id: 5560554
-    donation: 100
+    amount: 100
