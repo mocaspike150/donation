@@ -1,5 +1,4 @@
 ---
 layout: data
 ---
-
-{{ site | jsonify }}
+{{ site.data | jsonify }}
