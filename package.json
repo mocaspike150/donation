@@ -1,0 +1,24 @@
+{
+  "name": "mocaspike150-donation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mocaspike150/donation.git"
+  },
+  "author": "MOCA Spike 150",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mocaspike150/donation/issues"
+  },
+  "homepage": "https://github.com/mocaspike150/donation#readme",
+  "dependencies": {
+    "d3": "^5.9.2",
+    "jsdom": "^15.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}
