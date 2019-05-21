@@ -1,47 +1,50 @@
-donation: 
-  - 
-    crowdrise_id: 5358898
-    amount: 2843
-  - 
-    crowdrise_id: 5333852
-    amount: 1300
-  - 
-    crowdrise_id: 5521923
-    amount: 1298
-  - 
-    crowdrise_id: 5534445
-    amount: 925
-  - 
-    crowdrise_id: 5543455
-    amount: 900
-  - 
-    crowdrise_id: 4495011
-    amount: 575
-  - 
-    crowdrise_id: 534009
-    amount: 558
-  - 
-    crowdrise_id: 2913433
-    amount: 550
-  - 
-    crowdrise_id: 5337023
-    amount: 525 
-  - 
-    crowdrise_id: 5356828
-    amount: 435
-  - 
-    crowdrise_id: 5543665
-    amount: 300
-  - 
-    crowdrise_id: 5526707
-    amount: 200
-  - 
-    crowdrise_id: 5539317
-    amount: 125
-  - 
-    crowdrise_id: 5528835
-    amount: 100
-  - 
-    crowdrise_id: 5560554
-    amount: 100
-    
+--- 
+- 
+  amount: 2843
+  crowdrise_id: 5358898
+- 
+  crowdrise_id: 5358898
+  amount: 2843
+- 
+  crowdrise_id: 5333852
+  amount: 1300
+- 
+  crowdrise_id: 5521923
+  amount: 1298
+- 
+  crowdrise_id: 5534445
+  amount: 925
+- 
+  crowdrise_id: 5543455
+  amount: 900
+- 
+  crowdrise_id: 4495011
+  amount: 575
+- 
+  crowdrise_id: 534009
+  amount: 558
+- 
+  crowdrise_id: 2913433
+  amount: 550
+- 
+  crowdrise_id: 5337023
+  amount: 525 
+- 
+  crowdrise_id: 5356828
+  amount: 435
+- 
+  crowdrise_id: 5543665
+  amount: 300
+- 
+  crowdrise_id: 5526707
+  amount: 200
+- 
+  crowdrise_id: 5539317
+  amount: 125
+- 
+  crowdrise_id: 5528835
+  amount: 100
+- 
+  crowdrise_id: 5560554
+  amount: 100
+  
