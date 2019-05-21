@@ -1,11 +1,16 @@
 const fs = require('fs')
 const d3 = require('d3')
+const amount = require('../lib/amount')
 global.fetch = require('node-fetch')
 
+
+const save = (data) => {
+  console.log('save', data)
+}
+
 const process = (data) => {
-  console.log(data)
   for(const k in data) {
-    console.log(data[k].url)
+    amount(data[k].url, save)
   }
 }
 
