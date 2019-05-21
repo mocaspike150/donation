@@ -9,8 +9,8 @@ const save = (data) => {
 }
 
 const process = (data) => {
-  for(const k in data) {
-    amount(data[k].url, save)
+  for(const id in data) {
+    amount(data, id, save)
   }
 }
 
