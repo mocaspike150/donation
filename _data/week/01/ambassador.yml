@@ -1,67 +1,67 @@
-donation: 
-  - 
-    crowdrise_id: 5299021
-    amount: 3700
-  - 
-    crowdrise_id: 4770435
-    amount: 1625
-  - 
-    crowdrise_id: 5266678
-    amount: 1275
-  - 
-    crowdrise_id: 4338132
-    amount: 1225
-  - 
-    crowdrise_id: 839784
-    amount: 1210
-  - 
-    crowdrise_id: 5161826
-    amount: 925
-  - 
-    crowdrise_id: 4751171
-    amount: 895
-  - 
-    crowdrise_id: 5238333
-    amount: 700
-  - 
-    crowdrise_id: 5238333
-    amount: 625
-  - 
-    crowdrise_id: 5327044
-    amount: 555
-  - 
-    crowdrise_id: 5238100
-    amount: 475
-  - 
-    crowdrise_id: 5320241
-    amount: 445
-  - 
-    crowdrise_id: 5163393
-    amount: 400
-  - 
-    crowdrise_id: 5238194
-    amount: 265
-  - 
-    crowdrise_id: 5311273
-    amount: 225
-  - 
-    crowdrise_id: 5314951
-    amount: 190
-  - 
-    crowdrise_id: 5322881
-    amount: 165
-  - 
-    crowdrise_id: 5330335
-    amount: 150
-  - 
-    crowdrise_id: 5306989
-    amount: 150
-  - 
-    crowdrise_id: 5314846
-    amount: 125
-  - 
-    crowdrise_id: 5354054
-    amount: 100
-  - 
-    crowdrise_id: 5348730
-    amount: 100
+--- 
+- 
+  amount: 3700
+  crowdrise_id: 5299021
+- 
+  amount: 1625
+  crowdrise_id: 4770435
+- 
+  amount: 1275
+  crowdrise_id: 5266678
+- 
+  amount: 1225
+  crowdrise_id: 4338132
+- 
+  amount: 1210
+  crowdrise_id: 839784
+- 
+  amount: 925
+  crowdrise_id: 5161826
+- 
+  amount: 895
+  crowdrise_id: 4751171
+- 
+  amount: 700
+  crowdrise_id: 5238333
+- 
+  amount: 625
+  crowdrise_id: 5238333
+- 
+  amount: 555
+  crowdrise_id: 5327044
+- 
+  amount: 475
+  crowdrise_id: 5238100
+- 
+  amount: 445
+  crowdrise_id: 5320241
+- 
+  amount: 400
+  crowdrise_id: 5163393
+- 
+  amount: 265
+  crowdrise_id: 5238194
+- 
+  amount: 225
+  crowdrise_id: 5311273
+- 
+  amount: 190
+  crowdrise_id: 5314951
+- 
+  amount: 165
+  crowdrise_id: 5322881
+- 
+  amount: 150
+  crowdrise_id: 5330335
+- 
+  amount: 150
+  crowdrise_id: 5306989
+- 
+  amount: 125
+  crowdrise_id: 5314846
+- 
+  amount: 100
+  crowdrise_id: 5354054
+- 
+  amount: 100
+  crowdrise_id: 5348730
