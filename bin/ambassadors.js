@@ -6,21 +6,29 @@ global.fetch = require('node-fetch')
 const save = (data) => {
   const fn = `_data/crowdrise/${data.id}.yml`
   console.log('save to file', fn)
-  console.log(yaml.safeDump(data))
-  fs.writeFile(fn, yaml.safeDump(data), (err) => {
+  console.log(data) 
+  const yaml_data = `
+id: ${data.id}
+url: ${data.url}
+`
+  fs.writeFile(fn, yaml_data, (err) => {
      if (err) throw err
-     console.log(fn)
+     console.log(yaml_data)
   })
 }
 
 const process = (data) => {
-  for( const d of data) {
+  for( const i in data) {
+    const d = data[i]
     const url = `https://www.crowdrise.com/o/en/campaign/${d.team}/${d.crowdrise_page}`
-    const output = {
-      id: d.crowdrise_id,
-      url: url
-    }
-    save(output)
+    const fn = `_data/crowdrise/${d.crowdrise_id}.yml`
+    const yaml_data = `id : ${d.crowdrise_id}
+url : '${url}'
+`
+    fs.writeFile(fn, yaml_data, (err) => {
+     if (err) throw err
+     console.log(yaml_data);
+    })
   }
 }
 
