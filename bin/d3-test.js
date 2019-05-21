@@ -1,11 +1,11 @@
 const fs = require('fs')
 const d3 = require('d3')
 const amount = require('../lib/amount')
+const yaml = require('js-yaml')
 global.fetch = require('node-fetch')
 
-
 const save = (data) => {
-  console.log('save', data)
+  console.log(yaml.safeDump(data))
 }
 
 const process = (data) => {
