@@ -22,7 +22,7 @@ const process = (data) => {
     const d = data[i]
     const url = `https://www.crowdrise.com/o/en/campaign/${d.team}/${d.crowdrise_page}`
     const fn = `_data/crowdrise/${d.crowdrise_id}.yml`
-    const type = d.type ? d.type : 'runner'
+    const type = d.type ? 'clubs' : 'runners'
     const yaml_data = `id : ${d.crowdrise_id}
 url : '${url}'
 type : '${type}'
