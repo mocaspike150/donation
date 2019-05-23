@@ -5,12 +5,8 @@ const jsdom = require('jsdom')
 const { JSDOM } = jsdom
 const crowdrise = 'https://www.mocaspike150.org/donation/data/crowdrise.json'
 
-const id = process.argv[2] ? process.argv[2] : '5161826'
-
-let total = 0;
-let count = 0;
-
 const get = (data) => {
+  for( let id in data) {
   const url = data[id].url
   const type = data[id].type
   const path = `_data/${type}`
@@ -27,6 +23,7 @@ const get = (data) => {
       })
   })
   .catch(error)
+ }
 }
 
 const error = (err) => { }
