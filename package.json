@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node bin/d3-test.js"
+    "get_data": "node bin/get_all_amounts.js"
   },
   "repository": {
     "type": "git",
