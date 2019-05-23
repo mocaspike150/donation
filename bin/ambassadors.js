@@ -22,8 +22,10 @@ const process = (data) => {
     const d = data[i]
     const url = `https://www.crowdrise.com/o/en/campaign/${d.team}/${d.crowdrise_page}`
     const fn = `_data/crowdrise/${d.crowdrise_id}.yml`
+    const type = d.type
     const yaml_data = `id : ${d.crowdrise_id}
 url : '${url}'
+type : '${type}'
 `
     fs.writeFile(fn, yaml_data, (err) => {
      if (err) throw err
