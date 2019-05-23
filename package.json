@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "get_data": "node bin/get_all_amounts.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mocaspike150/donation.git"
