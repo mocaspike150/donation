@@ -1,5 +1,6 @@
 NODE=/usr/local/bin/node
 all:
+	git pull
 	$(NODE) bin/get_all_amounts.js
 	$(NODE) bin/donation_total.js  | tee data/total.json
 	$(NODE) bin/total.js runners | tee data/runners.json
