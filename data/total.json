@@ -1,1 +1,103 @@
-{"amount":30154}
+{ RequestError: Error: getaddrinfo ENOTFOUND www.crowdrise.com www.crowdrise.com:443
+    at new RequestError (/Users/sam/github/mocaspike150/donation/node_modules/request-promise-core/lib/errors.js:14:15)
+    at Request.plumbing.callback (/Users/sam/github/mocaspike150/donation/node_modules/request-promise-core/lib/plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (/Users/sam/github/mocaspike150/donation/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at self.callback (/Users/sam/github/mocaspike150/donation/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.onRequestError (/Users/sam/github/mocaspike150/donation/node_modules/request/request.js:881:8)
+    at ClientRequest.emit (events.js:182:13)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+  name: 'RequestError',
+  message:
+   'Error: getaddrinfo ENOTFOUND www.crowdrise.com www.crowdrise.com:443',
+  cause:
+   { Error: getaddrinfo ENOTFOUND www.crowdrise.com www.crowdrise.com:443
+       at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+     errno: 'ENOTFOUND',
+     code: 'ENOTFOUND',
+     syscall: 'getaddrinfo',
+     hostname: 'www.crowdrise.com',
+     host: 'www.crowdrise.com',
+     port: 443 },
+  error:
+   { Error: getaddrinfo ENOTFOUND www.crowdrise.com www.crowdrise.com:443
+       at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+     errno: 'ENOTFOUND',
+     code: 'ENOTFOUND',
+     syscall: 'getaddrinfo',
+     hostname: 'www.crowdrise.com',
+     host: 'www.crowdrise.com',
+     port: 443 },
+  options:
+   { encoding: null,
+     gzip: true,
+     jar: RequestJar { _jar: [CookieJar] },
+     strictSSL: true,
+     forever: true,
+     headers:
+      { 'User-Agent':
+         'Mozilla/5.0 (darwin) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/15.1.0',
+        'Accept-Language': 'en',
+        Accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' },
+     uri: 'https://www.crowdrise.com/o/en/campaign/moca-spike-150',
+     callback: [Function: RP$callback],
+     transform: undefined,
+     simple: true,
+     resolveWithFullResponse: false,
+     transform2xxOnly: false },
+  response: undefined }
+{ RequestError: Error: getaddrinfo ENOTFOUND www.crowdrise.com www.crowdrise.com:443
+    at new RequestError (/Users/sam/github/mocaspike150/donation/node_modules/request-promise-core/lib/errors.js:14:15)
+    at Request.plumbing.callback (/Users/sam/github/mocaspike150/donation/node_modules/request-promise-core/lib/plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (/Users/sam/github/mocaspike150/donation/node_modules/request-promise-core/lib/plumbing.js:46:31)
+    at self.callback (/Users/sam/github/mocaspike150/donation/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.onRequestError (/Users/sam/github/mocaspike150/donation/node_modules/request/request.js:881:8)
+    at ClientRequest.emit (events.js:182:13)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:182:13)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+  name: 'RequestError',
+  message:
+   'Error: getaddrinfo ENOTFOUND www.crowdrise.com www.crowdrise.com:443',
+  cause:
+   { Error: getaddrinfo ENOTFOUND www.crowdrise.com www.crowdrise.com:443
+       at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+     errno: 'ENOTFOUND',
+     code: 'ENOTFOUND',
+     syscall: 'getaddrinfo',
+     hostname: 'www.crowdrise.com',
+     host: 'www.crowdrise.com',
+     port: 443 },
+  error:
+   { Error: getaddrinfo ENOTFOUND www.crowdrise.com www.crowdrise.com:443
+       at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+     errno: 'ENOTFOUND',
+     code: 'ENOTFOUND',
+     syscall: 'getaddrinfo',
+     hostname: 'www.crowdrise.com',
+     host: 'www.crowdrise.com',
+     port: 443 },
+  options:
+   { encoding: null,
+     gzip: true,
+     jar: RequestJar { _jar: [CookieJar] },
+     strictSSL: true,
+     forever: true,
+     headers:
+      { 'User-Agent':
+         'Mozilla/5.0 (darwin) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/15.1.0',
+        'Accept-Language': 'en',
+        Accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' },
+     uri:
+      'https://www.crowdrise.com/o/en/campaign/moca-spike-150-ambassadors',
+     callback: [Function: RP$callback],
+     transform: undefined,
+     simple: true,
+     resolveWithFullResponse: false,
+     transform2xxOnly: false },
+  response: undefined }
