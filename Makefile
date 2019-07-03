@@ -1,4 +1,4 @@
-NODE=/usr/local/bin/node
+NODE=/usr/bin/node
 all:
 	git pull
 	$(NODE) bin/get_all_amounts.js
