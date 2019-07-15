@@ -14,9 +14,9 @@
   },
   "homepage": "https://github.com/mocaspike150/donation#readme",
   "dependencies": {
-    "d3": "^5.9.2",
+    "d3": "^5.9.7",
     "js-yaml": "^3.13.1",
-    "jsdom": "^15.1.0",
+    "jsdom": "^15.1.1",
     "node-fetch": "^2.6.0"
   }
 }
