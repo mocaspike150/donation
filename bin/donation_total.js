@@ -20,6 +20,6 @@ for (let team of teams) {
         console.log(JSON.stringify({amount: total}));
       }
     })
-   .catch((error) => { console.log(error) })
+   .catch((error) => { console.error(error) })
 }
 
